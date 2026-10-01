@@ -1,10 +1,7 @@
 # Instacart Reorder Prediction
 
-## Overview
-This project aims to predict the possibility of a given user reorder a given product.
-
 ## Introduction
-This project uses Random Forest Classifier for prediction. Several extra columns are added to the for feature engineering to give more information to the model. Since the dataset is too large, downsampling is applied. However, GroupSplit is used instead of the classical train test split to avoid data leakage. Grid search is also used to find the best hyperparameters of the model.
+This project aims to predict the possibility of a given user reorder a given product. Random Forest Classifier is used for prediction. Several extra columns are added to the for feature engineering to give more information to the model. Since the dataset is too large, downsampling is applied. However, GroupSplit is used instead of the classical train test split to avoid data leakage. Grid search is also used to find the best hyperparameters of the model.
 
 ## Dataset
 Instacart Market Basket Analysis is used for the model training. Due to the maximum value of github, datasets cannot be included in this repository. Users should download the dataset themselves and put them in ```resources/data/raw/```.
